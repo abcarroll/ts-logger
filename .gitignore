@@ -1,0 +1,65 @@
+# ab-skeleton v0.1.0 $Tue 04 Feb 2020 09:32:02 AM EST$
+######################################################################
+# Include your project-specific ignores in this file
+# Read about how to use .gitignore: https://help.github.com/articles/ignoring-files
+# Useful .gitignore templates: https://github.com/github/gitignore
+
+# NOTE: Ensure if you use another gitignore template, that it does not include "bin/".
+# ... This is the PDS specification as to where to place executable scripts.
+
+build/
+dist/
+composer.lock
+vendor/
+node_modules/
+phpcs.xml
+phpunit.xml
+.phpunit.result.cache
+
+# From HTML5 Boilerplate
+/.settings
+/.buildpath
+/.project
+/.php_cs.cache
+
+# # # # # # # # # #
+## IDE Specific
+# # # # # # # # # #
+# JetBrains IDE
+.idea/
+*.iml
+*.iws
+
+# VSCode
+.vscode/
+
+# Netbeans IDE
+nbproject/
+
+# Vim
+[._]*.s[a-w][a-z]
+[._]s[a-w][a-z]
+
+# Dreamweaver
+# 'configs/' seems quite dangerous/generic and likely to conflict with real
+# app data in the future
+configs/
+_compareTemp/
+_notes/
+dwsync.xml
+*.mno
+dw_php_codehinting.config
+
+# MacOS
+*.DS_Store
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+*.lnk
+
+# FreeDesktop (Linux/BSD) Trash Cans
+.Trash-*
+

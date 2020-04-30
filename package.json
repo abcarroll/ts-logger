@@ -1,0 +1,44 @@
+{
+    "name": "@ab.js/log",
+    "version": "0.1.0",
+    "description": "PHP's beautifully simple, standards-rooted PSR-3 logging interface ported to Typescript and JS.",
+    "main": "src/Logger.js",
+    "homepage": "https://github.com/ab-js/log",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/ab-js/log.git"
+    },
+    "author": "A.B. Carroll <ben@hl9.net>",
+    "contributors": [
+        {
+            "name": "A.B. Carroll",
+            "email": "ben@hl9.net"
+        },
+        {
+            "name": "The PHP Framework Interopabilty Group"
+        }
+    ],
+    "license": "MIT",
+    "scripts": {
+        "build": "tsc"
+    },
+    "keywords": [
+        "log",
+        "logger",
+        "psr",
+        "php",
+        "psr-3",
+        "logging",
+        "elasticsearch",
+        "console",
+        "writer"
+    ],
+    "devDependencies": {
+        "@types/jest": "^25.2.1",
+        "ts-jest": "^25.4.0",
+        "typescript": "^3.8.3"
+    },
+    "dependencies": {
+        "@types/events": "^3.0.0"
+    }
+}
